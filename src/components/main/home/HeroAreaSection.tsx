@@ -2,11 +2,12 @@ import Image from "next/image";
 
 export default function HeroAreaSection() {
     return (
-        <section>
-            <div className="max-w-[1140px] mx-auto px-[32px] xl:px-[0] mt-[53px] ">
-                <div className="grid grid-cols-2 md:grid-cols-2">
-                    <div>
+        <section className=" bg-white">
+            <div className="max-w-[1140px] mx-auto px-[32px] xl:px-[0] mt-[53px] mb-[76px]">
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-[20px] w-full h-[526px]">
 
+
+                    <div>
                         <div className="max-w-[520px]">
                             <h1 className="text-[32px] font-bold leading-[140%] sm:text-[40px] md:text-[64px] md:leading-[120%]">
                                 <span>
@@ -17,7 +18,7 @@ export default function HeroAreaSection() {
                                         Imagination
                                     </span>
                                     <Image
-                                        src="/images/Imagination-bg-Rectangle.png"
+                                        src="/images/home/hero-area-section/Imagination-bg-Rectangle.png"
                                         alt=""
                                         width={363}
                                         height={20}
@@ -49,7 +50,58 @@ export default function HeroAreaSection() {
                         </div>
 
                     </div>
-                    <div></div>
+
+
+                    <div className="flex justify-center pl-3 relative">
+                        <div className="relative w-full h-full">
+                            <div className="absolute right-12 -top-[24px]">
+                                <Image
+                                    src="/images/home/hero-area-section/person-bg-yellow-like.png"
+                                    alt="Hero Section Image"
+                                    width={308}
+                                    height={481}
+                                    className="min-w-[308px] h-[481px] object-cover"
+                                    priority
+                                />
+                            </div>
+                            <div className="absolute right-[25px]">
+                                <Image
+                                    src="/images/home/hero-area-section/hero-right-person.png"
+                                    alt="Hero Section Image"
+                                    width={358}
+                                    height={433}
+                                    className="min-w-[358px] h-[433px] object-cover"
+                                    priority
+                                />
+                            </div>
+
+
+
+
+                            <div className="absolute bottom-10 right-0">
+                                <div className="w-[181px] h-[67px] p-[16px] rounded-[12px] flex items-center gap-[8px] shadow bg-white">
+                                    <div>
+                                        <Image
+                                            src="/images/home/hero-area-section/victory-logo.png"
+                                            alt="Hero Section Image"
+                                            width={100}
+                                            height={100}
+                                            className="w-[39px] h-[39px] object-cover"
+                                            priority
+                                        />
+                                    </div>
+                                    <div>
+                                        <h2 className="text-body text-sm font-medium leading-[160%]">Project Done</h2>
+                                        <p className="text-[16px] text-primary font-medium leading-[150%]">4679</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
