@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 
@@ -34,9 +35,9 @@ export default function Navbar() {
                     <ul className=" gap-[32px] hidden lg:flex">
                         {navLinks?.map((link) => (
                             <li key={link.id}>
-                                <a href={link.href} className="text-sm font-normal leading-[160%] text-body">
+                                <Link href={link.href} className="text-sm font-normal leading-[160%] text-body">
                                     {link.label}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -52,9 +53,9 @@ export default function Navbar() {
                                 onClick={() => setIsSidebarOpen(!isSidebarOpen)}
                             >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                                    <path d="M3.85925 7H21.8593" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" />
-                                    <path d="M3.85925 12H21.8593" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" />
-                                    <path d="M3.85925 17H21.8593" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M3.85925 7H21.8593" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" />
+                                    <path d="M3.85925 12H21.8593" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" />
+                                    <path d="M3.85925 17H21.8593" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" />
                                 </svg>
                             </button>
 
@@ -65,16 +66,16 @@ export default function Navbar() {
                                         <div className="flex justify-end p-4">
                                             <button onClick={() => setIsSidebarOpen(false)}>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                    <path d="M6 18L18 6M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M6 18L18 6M6 6L18 18" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                                 </svg>
                                             </button>
                                         </div>
                                         <ul className=" gap-4 mt-16 p-6 space-y-4">
                                             {navLinks?.map((link) => (
                                                 <li key={link.id}>
-                                                    <a href={link.href} className="text-md w-full cursor-pointer font-normal leading-[160%] text-white">
+                                                    <Link href={link.href} className="text-md w-full cursor-pointer font-normal leading-[160%] text-white">
                                                         {link.label}
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             ))}
                                         </ul>
