@@ -266,12 +266,10 @@ export default function HeroAreaSection() {
                                 </div>
 
 
-
-
                             </div>
 
 
-                            <div className="absolute bottom-[47px] right-[22px]">
+                            <div className="absolute -bottom-[29px] right-[22px]">
                                 <div className="w-[173px] h-[79px] p-[16px] rounded-[12px] flex items-center gap-[8px] shadow-[10px_10px_80px_0px_rgba(35,10,136,0.08)] bg-white">
                                     <div className="w-[47px] h-[47px] rounded-full p-[4px] bg-[#9965CF1A]">
                                         <Image
