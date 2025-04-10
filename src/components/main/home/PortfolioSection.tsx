@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PortfolioSectionSlider from "../sliderCarousel/home/PortfolioSectionSlider";
 
 export default function PortfolioSection() {
     return (
@@ -83,6 +84,8 @@ export default function PortfolioSection() {
 
                 </div>
 
+
+                <PortfolioSectionSlider />
 
 
                 {/* // left side pyramid like absolute positioned svg  */}
