@@ -42,9 +42,11 @@ export default function Navbar() {
                         ))}
                     </ul>
                     <div className="flex items-center gap-[24px]">
-                        <button className="w-[103px] h-[46px] bg-gradient-to-r from-primary-start to-primary-end text-white text-sm font-medium leading-[160%] flex items-center justify-center rounded-full">
-                            Contact
-                        </button>
+                        <div className="hidden sm:flex">
+                            <button className="w-[103px] h-[46px] bg-gradient-to-r from-primary-start to-primary-end text-white text-sm font-medium leading-[160%] flex items-center justify-center rounded-full">
+                                Contact
+                            </button>
+                        </div>
 
                         {/* ====== mobile nav =======> */}
                         <div className="flex lg:hidden">
