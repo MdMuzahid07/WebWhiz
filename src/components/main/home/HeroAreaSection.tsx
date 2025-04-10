@@ -4,16 +4,16 @@ export default function HeroAreaSection() {
     return (
         <section className=" bg-white">
             <div className="max-w-[1140px] mx-auto mt-[24px] sm:mt-[100px]">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px] w-full sm:h-[526px]">
+                <div className="flex justify-between flex-col md:flex-row gap-[20px] w-full sm:h-[526px]">
 
 
-                    <div className=" px-[32px] xl:px-[0] mb-[52px] sm:mb-[76px]">
-                        <div className="max-w-[30px] sm:max-w-[520px]">
-                            <h1 className="text-[32px] font-bold leading-[140%] sm:text-[40px] lg:text-[64px] md:leading-[120%]">
-                                <span>
-                                    Turning
-                                </span>
-                                <span className="relative inline-block">
+                    <div className=" px-[32px] xl:px-[0] mb-[52px] sm:mb-[76px] mt-[10px]">
+                        <h1 className="max-w-[520px] text-[32px] font-bold leading-[140%] sm:text-[40px] lg:text-[64px] md:leading-[120%] text-center sm:text-start">
+                            <span>
+                                Turning
+                            </span>
+                            <div className="flex justify-center sm:justify-start mt-[9.5px] mb-2">
+                                <span className="relative inline-block ">
                                     <span className="relative z-10 bg-gradient-to-r from-primary-start to-primary-end bg-clip-text text-transparent">
                                         Imagination
                                     </span>
@@ -25,29 +25,23 @@ export default function HeroAreaSection() {
                                         className="absolute bottom-[11px] sm:bottom-[9px] lg:bottom-[14px] left-1 object-cover z-0"
                                         priority
                                     />
-                                </span>
-                                <span className="pl-0 md:pl-3 pr-3 md:pr-0">into</span>
-                                Innovation
-                            </h1>
-                        </div>
+                                </span> <span className="pl-3 pr-3 md:pr-0 inline">into</span>
+                            </div>
+                            Innovation
+                        </h1>
 
                         <div className="mt-[16px] sm:flex sm:items-center sm:gap-[12px]">
                             <div className="h-[65px] hidden sm:flex min-w-[4px] bg-gradient-to-r from-primary-start to-primary-end rounded-[16px]">
                             </div>
-                            <div className="max-w-[554px]">
-                                <p className="hidden lg:flex text-body text-[16px] font-normal leading-[160%]">
-                                    Welcome to my digital playground, where creativity knows no bounds. I&apos;m a passionate designer and developer on a mission to turn innovative ideas into stunning digital realities.
-                                </p>
-                                <p className="hidden sm:flex lg:hidden text-body text-[16px] font-normal leading-[160%]">
-                                    Welcome to my digital playground, where creativity knows no bounds. I&apos;m a passionate de...
-                                </p>
-                                <p className="sm:hidden text-center text-body text-[15px] font-normal leading-[160%]">
-                                    Welcome to my digital playground, where creativity knows no bounds. I&apos;m a passionate designer and developer
-                                </p>
-                            </div>
+                            <p className="w-full min-w-[327px] sm:w-[323px] lg:min-w-[554px] text-center sm:text-left text-body text-[16px] font-normal leading-[160%]">
+                                Welcome to my digital playground, where creativity knows no bounds<span className="hidden lg:inline">.</span>{' '}
+                                <span className="sm:hidden">I&apos;m a passionate designer and developer</span>
+                                <span className="hidden sm:inline lg:hidden"> passionate de...</span>
+                                <span className="hidden lg:inline">I&apos;m a passionate developer on a mission to turn innovative ideas into stunning digital realities</span>
+                            </p>
                         </div>
 
-                        <div className="flex items-center gap-[12px] mt-[24px]">
+                        <div className="flex items-center justify-center sm:justify-start gap-[12px] mt-[24px]">
                             <button className="w-[160px] h-[46px] bg-gradient-to-r from-primary-start to-primary-end flex justify-center items-center text-sm font-medium leading-[160%] text-white rounded-full cursor-pointer">
                                 Hire Me
                             </button>
@@ -63,7 +57,7 @@ export default function HeroAreaSection() {
                     <div className="flex lg:hidden justify-center w-full pl-3 relative">
                         <div className="relative w-full h-full px-[11px] sm:px-[32px] xl:px-[0]">
                             <div className="relative">
-                                <div className="absolute right-[32px] -top-[16px]">
+                                <div className="absolute right-[32px] -top-[20px]">
                                     <div className="relative">
                                         <div className="absolute -right-[37px] -top-[23px]">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
@@ -75,7 +69,7 @@ export default function HeroAreaSection() {
                                             alt="Hero Section Image"
                                             width={295}
                                             height={334}
-                                            className="sm:min-w-[295px] h-[318px] sm:h-[334px] object-cover rounded-[16px] overflow-hidden "
+                                            className="sm:min-w-[295px] h-full sm:h-[334px] object-cover rounded-[16px] overflow-hidden "
                                             priority
                                         />
 
@@ -100,7 +94,7 @@ export default function HeroAreaSection() {
                                         alt="Hero Section Image"
                                         width={327}
                                         height={286}
-                                        className="min-w-[327px] h-[286px] object-cover rounded-[16px] overflow-hidden"
+                                        className="w-screen md:min-w-[327px] md:h-[286px] object-cover rounded-[16px] overflow-hidden"
                                         priority
                                     />
 
@@ -170,7 +164,7 @@ export default function HeroAreaSection() {
 
 
                     {/* // ======= for desktop view ============> */}
-                    <div className="hidden lg:flex justify-center pl-3 relative   px-[32px] xl:px-[0] mb-[76px]">
+                    <div className="hidden lg:flex justify-center pl-3 relative  px-[32px] xl:px-[0] mb-[76px]">
                         <div className="relative w-full h-full">
                             <div className="relative">
                                 <div className="absolute right-[115px] -top-[24px]">

@@ -64,7 +64,7 @@ export default function Navbar() {
 
                             {
                                 isSidebarOpen && (
-                                    <div className="absolute sm:max-w-[300px] top-0 right-0 w-full h-full  bg-gradient-to-r from-primary-start to-primary-end z-50">
+                                    <div className="absolute  w-full sm:max-w-[300px] top-0 right-0 h-full  bg-gradient-to-r from-primary-start to-primary-end z-50">
                                         <div className="flex justify-end p-4">
                                             <button onClick={() => setIsSidebarOpen(false)}>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
