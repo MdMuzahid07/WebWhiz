@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return (
         <header className="w-full bg-white">
-            <nav className="max-w-[1140px] my-[32px] mx-auto flex justify-between items-center px-[32px] xl:px-[0]">
+            <nav className="max-w-[1440px] my-[32px] mx-auto flex justify-between items-center px-[24px] sm:px-[32px] xl:px-[140px]">
                 <div>
                     <figure className="cursor-pointer">
                         <Image
