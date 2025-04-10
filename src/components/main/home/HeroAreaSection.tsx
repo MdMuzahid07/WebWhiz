@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function HeroAreaSection() {
     return (
         <section className="max-w-[1440px] bg-white mx-auto mt-[24px] sm:mt-[100px]">
-            <div className="flex justify-between flex-col md:flex-row gap-[20px] w-full sm:h-[526px]">
+            <div className="flex justify-between flex-col md:flex-row gap-[20px] w-full lg:h-[526px]">
 
 
-                <div className=" px-[24px] sm:px-[32px] xl:px-[140px] mb-[52px] sm:mb-[76px] mt-[10px]">
+                <div className="px-[24px] sm:px-[32px] xl:px-[140px] mb-[52px] sm:mb-[76px] mt-[10px]">
                     <h1 className="max-w-[520px] text-[32px] font-bold leading-[140%] sm:text-[40px] lg:text-[64px] md:leading-[120%] text-center sm:text-start">
                         <span>
                             Turning
@@ -39,7 +39,6 @@ export default function HeroAreaSection() {
                             <span className="hidden lg:inline">I&apos;m a passionate developer on a mission to turn innovative ideas into stunning digital realities</span>
                         </p> */}
 
-
                         <p className="w-full hidden lg:flex lg:max-w-[554px] text-center sm:text-left text-body text-[16px] font-normal leading-[160%]">
                             Welcome to my digital playground, where creativity knows no bounds. I&apos;m a passionate designer and developer on a mission to turn innovative ideas into stunning digital realities.
                         </p>
@@ -48,7 +47,7 @@ export default function HeroAreaSection() {
                             Welcome to my digital playground, where creativity knows no bounds passionate de...
                         </p>
 
-                        <p className="w-full min-w-[327px] flex md:hidden  text-center text-body text-[16px] font-normal leading-[160%]">
+                        <p className="w-full min-w-[327px] flex md:hidden  text-center sm:text-left text-body text-[16px] font-normal leading-[160%]">
                             Welcome to my digital playground, where creativity knows no bounds. I&apos;m a passionate designer and developer
                         </p>
 
@@ -68,7 +67,7 @@ export default function HeroAreaSection() {
 
                 {/* // for mobile view ===================> */}
                 <div className="flex lg:hidden justify-center w-full pl-3 relative">
-                    <div className="relative w-full h-full px-[11px] sm:px-[32px] xl:px-[140px]">
+                    <div className="relative w-full h-auto px-[11px] sm:px-[32px] xl:px-[140px]">
                         <div className="relative">
                             <div className="absolute right-[32px] -top-[20px]">
                                 <div className="relative">
