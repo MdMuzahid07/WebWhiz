@@ -9,7 +9,7 @@ export default function PortfolioSection() {
 
                     <h1 className="text-caption text-[14px] pt-[32px] lg:pt-[80px] font-semibold leading-[160%] tracking-[1.68px] uppercase mb-[4px]">portfolio</h1>
 
-                    <div className="flex justify-center md:justify-between flex-col md:flex-row md:items-center lg:items-start">
+                    <div className="flex justify-center md:justify-start flex-col md:flex-row md:items-center lg:items-start gap-[81px]">
 
                         <h1 className="min-w-[327px] md:w-[339px] lg:w-[554px] text-[24px] md:text-[28px] lg:text-[40px] font-bold leading-[140%]">
                             <span className="mr-2">
@@ -29,8 +29,6 @@ export default function PortfolioSection() {
                                 />
                             </span>
                         </h1>
-
-
 
                         <div className="w-full sm:max-w-[364px] lg:max-w-[514px]">
                             <div className="sm:flex sm:items-center sm:gap-[12px]">
@@ -54,29 +52,28 @@ export default function PortfolioSection() {
 
                     </div>
 
-
                     <div className="w-full min-w-[560px] flex items-center gap-[24px] mt-[16px]">
                         <button className="w-[100px] relative h-[42px] py-[8px] px-[12px] text-[16px] font-medium capitalize leading-[150%] flex justify-center items-center">
                             All Project
-                            <div className="sm:h-[2px] absolute -bottom-[2px] w-full bg-gradient-to-r from-primary-start to-primary-end">
+                            <div className="sm:h-[2px] absolute bottom-0 w-full bg-gradient-to-r from-primary-start to-primary-end">
                             </div>
                         </button>
 
                         <button className="w-[121px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
                             UI/UX Design
-                            <div className="sm:h-[2px] absolute -bottom-[2px] w-full bg-gradient-to-r from-primary-start to-primary-end">
+                            <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
                             </div>
                         </button>
 
                         <button className="w-[136px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
                             Graphic Design
-                            <div className="sm:h-[2px] absolute -bottom-[2px] w-full bg-gradient-to-r from-primary-start to-primary-end">
+                            <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
                             </div>
                         </button>
 
                         <button className="w-[131px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
                             Developments
-                            <div className="sm:h-[2px] absolute -bottom-[2px] w-full bg-gradient-to-r from-primary-start to-primary-end">
+                            <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
                             </div>
                         </button>
                     </div>
