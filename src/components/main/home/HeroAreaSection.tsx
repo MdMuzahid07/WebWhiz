@@ -87,7 +87,7 @@ export default function HeroAreaSection() {
 
                                     <div className="absolute -bottom-[8px] -left-[7.5px] z-10">
                                         <Image
-                                            src="/images/home/hero-area-section/purple-circle.svg"
+                                            src="/images/home/hero-area-section/purple-circle.png"
                                             alt="purple circle"
                                             width={100}
                                             height={100}
@@ -195,7 +195,7 @@ export default function HeroAreaSection() {
                                     />
                                     <div className="absolute -bottom-[8px] -left-[7.5px] z-10">
                                         <Image
-                                            src="/images/home/hero-area-section/purple-circle.svg"
+                                            src="/images/home/hero-area-section/purple-circle.png"
                                             alt="purple circle"
                                             width={100}
                                             height={100}

@@ -13,7 +13,7 @@ export default function PortfolioSection() {
 
                         {/* // for desktop  */}
                         <div className="flex md:hidden lg:flex">
-                            <h1 className="min-w-[327px] md:w-[339px] lg:w-[554px] text-[24px] md:text-[28px] lg:text-[40px] font-bold leading-[140%]">
+                            <h1 className="min-w-[327px] md:w-[339px] lg:w-[554px] text-[24px] lg:text-[40px] font-bold leading-[140%]">
                                 <span className="mr-2">
                                     Discovering digital mastery and
                                 </span>
@@ -36,7 +36,7 @@ export default function PortfolioSection() {
 
                         {/* // for tablet  */}
                         <div className=" hidden md:flex lg:hidden">
-                            <h1 className=" min-w-[327px] md:w-[339px] lg:w-[554px] text-[24px] md:text-[28px] lg:text-[40px] font-bold leading-[140%]">
+                            <h1 className=" min-w-[327px] md:w-[339px] lg:w-[554px] text-[28px]  font-bold leading-[140%]">
                                 <span className="mr-2">
                                     Discovering digital mastery and
                                 </span>
