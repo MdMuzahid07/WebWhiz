@@ -36,7 +36,7 @@ export default function PortfolioSectionSlider() {
                     style={{ transform: `translateX(-${currentIndex * 578}px)` }} // 554px width + 24px gap
                 >
                     {slides?.map((slide) => (
-                        <div key={slide?.id} className="relative h-[390px] w-[554px] rounded-[16px] overflow-hidden shrink-0">
+                        <div key={slide?.id} className="relative h-[256px] lg:h-[390px] w-[327px] lg:w-[554px] rounded-[16px] overflow-hidden shrink-0">
                             <Image
                                 src={slide?.image}
                                 width={554}
@@ -66,9 +66,9 @@ export default function PortfolioSectionSlider() {
             </div>
 
             {/* slider bottom , indication, and navigation ==================> */}
-            <div className="flex items-center my-[24px] px-[150px] justify-between relative">
-                <div></div>
-                <div className="flex justify-center items-center gap-[8px]">
+            <div className="flex items-center my-[24px] md:px-[32px] lg:px-[150px] justify-center md:justify-between relative">
+                <div className="hidden md:flex"></div>
+                <div className="hidden md:flex justify-center items-center gap-[8px]">
                     {slides.map((_, index) => (
                         <div
                             key={index}

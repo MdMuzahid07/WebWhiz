@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HeroAreaSection() {
     return (
         <section className="max-w-[1440px] bg-white mx-auto mt-[24px] sm:mt-[100px]">
-            <div className="flex justify-between flex-col md:flex-row gap-[20px] w-full lg:h-[526px]">
+            <div className="flex justify-center md:justify-between flex-col md:flex-row gap-[20px] w-full lg:h-[526px]">
 
 
                 <div className="px-[24px] sm:px-[32px] xl:px-[140px] mb-[52px] sm:mb-[76px] mt-[10px]">

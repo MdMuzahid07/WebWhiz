@@ -94,30 +94,32 @@ export default function PortfolioSection() {
 
                     </div>
 
-                    <div className="w-full min-w-[560px] flex items-center gap-[24px] mt-[16px]">
-                        <button className="w-[100px] relative h-[42px] py-[8px] px-[12px] text-[16px] font-medium capitalize leading-[150%] flex justify-center items-center">
-                            All Project
-                            <div className="sm:h-[2px] absolute bottom-0 w-full bg-gradient-to-r from-primary-start to-primary-end">
-                            </div>
-                        </button>
+                    <div className="overflow-x-auto">
+                        <div className="w-full min-w-[560px] flex items-center gap-[24px] mt-[16px]">
+                            <button className="w-[100px] relative h-[42px] py-[8px] px-[12px] text-[16px] font-medium capitalize leading-[150%] flex justify-center items-center">
+                                All Project
+                                <div className="sm:h-[2px] absolute bottom-0 w-full bg-gradient-to-r from-primary-start to-primary-end">
+                                </div>
+                            </button>
 
-                        <button className="w-[121px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
-                            UI/UX Design
-                            <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
-                            </div>
-                        </button>
+                            <button className="w-[121px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
+                                UI/UX Design
+                                <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
+                                </div>
+                            </button>
 
-                        <button className="w-[136px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
-                            Graphic Design
-                            <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
-                            </div>
-                        </button>
+                            <button className="w-[136px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
+                                Graphic Design
+                                <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
+                                </div>
+                            </button>
 
-                        <button className="w-[131px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
-                            Developments
-                            <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
-                            </div>
-                        </button>
+                            <button className="w-[131px] relative h-[42px] py-[8px] px-[12px] text-[16px]  capitalize leading-[160%] flex justify-center items-center">
+                                Developments
+                                <div className="sm:h-[2px] absolute bottom-0 w-full bg-none">
+                                </div>
+                            </button>
+                        </div>
                     </div>
 
 
