@@ -29,7 +29,7 @@ export default function PortfolioSectionSlider() {
         num < 10 ? `0${num}` : `${num}`
 
     return (
-        <div className="relative w-full overflow-hidden mt-[40px]">
+        <div className="relative w-full overflow-hidden mt-[40px] z-10">
             <div className="relative flex items-center justify-center w-full">
                 <div
                     className="flex items-center gap-[24px] transition-transform duration-300 ease-in-out"
@@ -84,7 +84,7 @@ export default function PortfolioSectionSlider() {
                     <div className="flex items-center gap-[12px]">
                         <button
                             onClick={() => goToSlide(currentIndex - 1)}
-                            className="w-[32px] h-[32px] p-[1px] bg-gradient-to-r from-primary-start to-primary-end rounded-full"
+                            className="w-[32px] h-[32px] cursor-pointer p-[1px] bg-gradient-to-r from-primary-start to-primary-end rounded-full"
                             aria-label="Previous slide"
                         >
                             <div className="bg-white rounded-full w-full h-full flex justify-center items-center">
@@ -104,7 +104,7 @@ export default function PortfolioSectionSlider() {
 
                         <button
                             onClick={() => goToSlide(currentIndex + 1)}
-                            className="w-[32px] h-[32px] flex justify-center items-center bg-gradient-to-r from-primary-start to-primary-end rounded-full"
+                            className=" cursor-pointer w-[32px] h-[32px] flex justify-center items-center bg-gradient-to-r from-primary-start to-primary-end rounded-full "
                             aria-label="Next slide"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">

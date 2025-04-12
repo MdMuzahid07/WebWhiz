@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function HeroAreaSection() {
     return (
-        <section className="max-w-[1440px] bg-white mx-auto mt-[24px] sm:mt-[100px]">
-            <div className="flex justify-center md:justify-between flex-col md:flex-row gap-[20px] w-full lg:h-[526px]">
+        <section className="max-w-[1440px] bg-white mx-auto mt-[24px] w-full sm:mt-[100px] h-full">
+            <div className="flex justify-center md:justify-between flex-col md:flex-row gap-[20px] w-full h-full lg:h-[526px]">
 
 
                 <div className="px-[24px] sm:px-[32px] xl:px-[140px] mb-[52px] sm:mb-[76px] mt-[10px]">
@@ -171,7 +171,6 @@ export default function HeroAreaSection() {
                     </div>
                 </div>
                 {/* // for mobile view <=================== */}
-
 
 
                 {/* // ======= for desktop view ============> */}
