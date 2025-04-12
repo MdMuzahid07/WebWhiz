@@ -129,8 +129,8 @@ export default function PortfolioSection() {
                 <PortfolioSectionSlider />
 
 
-                {/* // left side pyramid like absolute positioned svg  */}
-                <div className="absolute max-w-[278px] md:max-w-[400px] xl:max-w-[808px] bottom-0">
+                {/* // left side pyramid like absolute positioned png  */}
+                <div className="hidden md:flex absolute w-full max-w-[278px] md:max-w-[400px] xl:max-w-[808px] bottom-0 left-0">
                     <Image
                         src="/images/home/portfolio-section/portfolio-section-bottom-left-vector.png"
                         width={808}
@@ -139,6 +139,19 @@ export default function PortfolioSection() {
                         className="w-full h-full"
                     />
                 </div>
+
+                {/* // right side pyramid like absolute positioned png  */}
+
+                <div className="hidden md:flex absolute w-full max-w-[278px] md:max-w-[400px] xl:max-w-[632] bottom-0 right-0">
+                    <Image
+                        src="/images/home/portfolio-section/portfolio-section-bottom-right-vector.png"
+                        width={808}
+                        height={744}
+                        alt="vector image"
+                        className="w-full h-full"
+                    />
+                </div>
+
             </div>
         </section>
     )
