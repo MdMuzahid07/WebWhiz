@@ -62,13 +62,15 @@ export default function AboutUsSection() {
 
 
                 <div className="mt-[48px] flex gap-[24px] xl:gap-[32px]">
-                    <div className="w-[554px] h-[348px] rounded-[12px] bg-gradient-to-r from-primary-start/4 to-primary-end/4 p-[50px]">
+
+
+                    <div className="w-[340px] xl:w-[554px] h-[308px] xl:h-[348px] rounded-[12px] bg-gradient-to-r from-primary-start/4 to-primary-end/4 p-[30px] lg:p-[50px]">
 
                         {
                             skills?.map((skill, index) => (
                                 <div key={index} className="mb-[16px]">
                                     <div className="text-[16px] font-semibold leading-[150%] mb-[4px]">{skill?.name}</div>
-                                    <div className="flex items-center w-[454px] h-[22px] gap-[12px]">
+                                    <div className="flex items-center w-[236px] xl:w-[454px] h-[10px] xl:h-[22px] gap-[8px] xl:gap-[12px]">
                                         <div className="flex-grow h-[10px] bg-[linear-gradient(99deg,rgba(95,144,240,0.10)_5.67%,rgba(24,90,217,0.10)_98.08%)] rounded-full overflow-hidden">
                                             <div className="h-full bg-[linear-gradient(99deg,#5F90F0_5.67%,#185AD9_98.08%)] rounded-full" style={{ width: `${skill.percentage}%` }} />
                                         </div>
@@ -77,6 +79,37 @@ export default function AboutUsSection() {
                                 </div>
                             ))
                         }
+                    </div>
+
+
+                    <div className="w-full">
+                        <div className="w-full max-w-[554px] h-[313px] relative">
+                            <Image
+                                src="/images/home/about-section/professional-team.png"
+                                width={554}
+                                height={313}
+                                alt="professional team"
+                                className=" w-[340px] xl:w-full h-[256px] xl:h-full  rounded-[16px] overflow-hidden"
+                            />
+
+                            <div className="absolute  bottom-[39px] right-0 xl:-right-[51px] xl:-bottom-[54px] w-[349px] xl:w-[531px] h-[81px] xl:h-[124px] p-[16px] xl:p-[32px] flex justify-between bg-[linear-gradient(99deg,#5F90F0_5.67%,#185AD9_98.08%)] rounded-[12px]">
+                                <div className="text-center w-full text-white">
+                                    <h1 className="text-[16px] xl:text-[24px] font-bold leading-[150%] xl:leading-[140%] ">58+</h1>
+                                    <p className="text-[12px] xl:text-[16px] leading-[160%]">Project Delivery</p>
+                                </div>
+                                <div className="mx-[8px] xl:mx-[21px] rounded-[16px] w-[2px] h-[49px] xl:h-[60px] bg-[rgba(226,244,234,0.5)]"></div>
+                                <div className="text-center w-full text-white">
+                                    <h1 className="text-[16px] xl:text-[24px] font-bold leading-[150%] xl:leading-[140%] ">120+</h1>
+                                    <p className="text-[12px] xl:text-[16px] leading-[160%]">Happy Clients</p>
+                                </div>
+                                <div className="mx-[8px] xl:mx-[21px] rounded-[16px] w-[2px] h-[49px] xl:h-[60px] bg-[rgba(226,244,234,0.5)]"></div>
+                                <div className="text-center w-full text-white">
+                                    <h1 className="text-[16px] xl:text-[24px] font-bold leading-[150%] xl:leading-[140%] ">32+</h1>
+                                    <p className="text-[12px] xl:text-[16px] leading-[160%]">Yours Experience</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
