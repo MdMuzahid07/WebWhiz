@@ -54,8 +54,8 @@ export default function PortfolioSectionSlider() {
                                     </div>
                                     <div className="size-[56px] p-[16px] rounded-[12px] bg-gradient-to-r from-primary-start to-primary-end">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <path d="M19 5L5 19" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M19 15.27V5H8.73" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M19 5L5 19" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M19 15.27V5H8.73" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>
                                     </div>
                                 </div>
