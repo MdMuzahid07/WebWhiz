@@ -1,5 +1,13 @@
 import Image from "next/image";
 
+const skills = [
+    { name: "Graphic Design", percentage: 65 },
+    { name: "Lead Generation", percentage: 87 },
+    { name: "Product Design", percentage: 45 },
+    { name: "UI/UX design", percentage: 75 },
+]
+
+
 export default function AboutUsSection() {
     return (
         <section className="max-w-[1440px] mx-auto bg-white">
@@ -53,12 +61,27 @@ export default function AboutUsSection() {
 
 
 
+                <div className="mt-[48px] flex gap-[24px] xl:gap-[32px]">
+                    <div className="w-[554px] h-[348px] rounded-[12px] bg-gradient-to-r from-primary-start/4 to-primary-end/4 p-[50px]">
+
+                        {
+                            skills?.map((skill, index) => (
+                                <div key={index} className="mb-[16px]">
+                                    <div className="text-[16px] font-semibold leading-[150%] mb-[4px]">{skill?.name}</div>
+                                    <div className="flex items-center w-[454px] h-[22px] gap-[12px]">
+                                        <div className="flex-grow h-[10px] bg-[linear-gradient(99deg,rgba(95,144,240,0.10)_5.67%,rgba(24,90,217,0.10)_98.08%)] rounded-full overflow-hidden">
+                                            <div className="h-full bg-[linear-gradient(99deg,#5F90F0_5.67%,#185AD9_98.08%)] rounded-full" style={{ width: `${skill.percentage}%` }} />
+                                        </div>
+                                        <p className="text-[14px] leading-[160%] text-body">{skill?.percentage}%</p>
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
 
 
             </div>
-
-
-
         </section>
     )
 }
