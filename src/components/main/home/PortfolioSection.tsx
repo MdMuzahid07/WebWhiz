@@ -3,17 +3,17 @@ import PortfolioSectionSlider from "../sliderCarousel/home/PortfolioSectionSlide
 
 export default function PortfolioSection() {
     return (
-        <section className="max-w-[1440px] mx-auto lg:pt-[29px]">
-            <div className="relative w-full h-full  min-h-[740px] bg-secondary/4">
+        <section className="max-w-[1440px] mx-auto lg:pt-[29px] mt-[388px] sm:mt-[0px]">
+            <div className="relative w-full h-full  lg:min-h-[740px] bg-secondary/4">
                 <div className="px-[24px] sm:px-[32px] xl:px-[140px]">
 
-                    <h1 className="text-caption text-[14px] pt-[32px] lg:pt-[80px] font-semibold leading-[160%] tracking-[1.68px] uppercase mb-[4px]">portfolio</h1>
+                    <h1 className="text-caption text-center sm:text-left text-[14px] pt-[32px] lg:pt-[80px] font-semibold leading-[160%] tracking-[1.68px] uppercase mb-[4px]">portfolio</h1>
 
                     <div className="flex justify-center md:justify-start flex-col md:flex-row md:items-center lg:items-start xl:gap-[81px]">
 
                         {/* // for desktop  */}
                         <div className="flex md:hidden lg:flex">
-                            <h1 className="min-w-[327px] md:w-[339px] lg:w-[554px] text-[24px] lg:text-[40px] font-bold leading-[140%]">
+                            <h1 className="min-w-[327px] md:w-[339px] lg:w-[554px] text-[24px] lg:text-[40px] font-bold leading-[140%] text-center sm:text-left mb-[8px] sm:mb-[0px]">
                                 <span className="mr-2">
                                     Discovering digital mastery and
                                 </span>
@@ -95,7 +95,7 @@ export default function PortfolioSection() {
                     </div>
 
                     <div className="overflow-x-auto">
-                        <div className="w-full min-w-[560px] flex items-center gap-[24px] mt-[16px]">
+                        <div className="w-full min-w-[560px] flex items-center gap-[24px] mt-[24px] sm:mt-[16px]">
                             <button
                                 className="w-[100px] relative h-[42px] py-[8px] px-[12px] text-[16px] font-medium capitalize leading-[150%] flex justify-center items-center cursor-pointer "
                             >

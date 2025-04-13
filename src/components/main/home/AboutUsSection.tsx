@@ -10,8 +10,8 @@ const skills = [
 
 export default function AboutUsSection() {
     return (
-        <section className="max-w-[1440px] mx-auto bg-white">
-            <div className="my-[76px] px-[24px] sm:pl-[32px] xl:pl-[150px] sm:pr-[28px] xl:pr-[99px]">
+        <section className="max-w-[1440px] mx-auto bg-white h-full">
+            <div className="my-[42px] lg:my-[76px] px-[24px] sm:pl-[32px] xl:pl-[150px] sm:pr-[28px] xl:pr-[99px]">
                 <h1 className="text-caption text-center sm:text-left text-[14px] font-semibold leading-[160%] tracking-[1.68px] uppercase mb-[4px]">About us</h1>
 
                 <div className="flex justify-center md:justify-start flex-col md:flex-row md:items-center lg:items-start gap-[8px] md:gap-[39px] xl:gap-[80px]">
@@ -61,10 +61,10 @@ export default function AboutUsSection() {
 
 
 
-                <div className="mt-[48px] flex flex-col items-center sm:flex-row gap-[24px] xl:gap-[32px]">
+                <div className="mt-[48px] flex flex-col sm:flex-row gap-[24px] xl:gap-[32px]">
 
 
-                    <div className=" w-full sm:max-w-[340px] lg:max-w-[554px] h-full sm:max-h-[308px] lg:h-[348px] rounded-[12px] bg-gradient-to-r from-primary-start/4 to-primary-end/4 p-[30px] lg:p-[50px]">
+                    <div className=" w-full sm:max-w-[340px] lg:max-w-[554px] h-full sm:max-h-[308px] lg:min-h-[348px] rounded-[12px] bg-gradient-to-r from-primary-start/4 to-primary-end/4 p-[30px] lg:p-[50px]">
 
                         {
                             skills?.map((skill, index) => (

@@ -29,7 +29,7 @@ export default function PortfolioSectionSlider() {
         num < 10 ? `0${num}` : `${num}`
 
     return (
-        <div className="relative w-full overflow-hidden mt-[40px] z-10">
+        <div className="relative w-full overflow-hidden mt-[24px] sm:mt-[40px] z-10">
             <div className="relative flex items-center justify-center w-full">
                 <div
                     className="flex items-center gap-[24px] transition-transform duration-300 ease-in-out"
