@@ -1,10 +1,40 @@
 import Image from 'next/image'
 import React from 'react'
 
+const services = [
+    {
+        title: "Graphic Design",
+        description:
+            "The team  consistently delivered outstanding results surpassing our expectations in terms of creativity strategy Graphic design is a dynamic and creative field that blends artistry with technology to visually communicate ideas messages and concepts.",
+        icon: "/images/home/services-section/pen-tool.svg",
+    },
+    {
+        title: "UI/UX Design",
+        description:
+            "Our UI/UX design services are a harmonious blend of aesthetics and functionality. We specialize in crafting user experiences that captivate and interfaces that engage. Our team of dedicated designers and developers collaborate to create seamless.",
+        icon: "/images/home/services-section/color-swatch.svg",
+    },
+    {
+        title: "Development",
+        description:
+            "Development is where ideas evolve into powerful, functional, and scalable digital solutions. Our proficient development team is well-versed in the latest technologies and programming languages, crafting web and mobile applications .",
+        icon: "/images/home/services-section/command.svg",
+    },
+    {
+        title: "Digital Marketing",
+        description:
+            "Digital marketing is our expertise, your pathway to online success. We specialize in navigating the dynamic digital landscape, offering strategic marketing solutions to propel your brand. From search engine optimization (SEO) and social media.",
+        icon: "/images/home/services-section/pen-tool.svg",
+    },
+];
+
+const sendArrowIcon = "/images/home/services-section/send.svg";
+
+
 export default function ServicesSection() {
     return (
         <section className="max-w-[1440px] mx-auto  lg:pt-[29px] h-full sm:mt-[0px]">
-            <div className="relative w-full h-full  bg-secondary/4">
+            <div className="relative w-full h-full  bg-secondary/4 pb-[24px] md:pb-[32px] lg:pb-[80px]">
 
 
                 {/* // main container */}
@@ -38,8 +68,6 @@ export default function ServicesSection() {
                         </h1>
 
 
-
-
                         <div className="w-full sm:max-w-[364px] lg:max-w-[514px] ">
                             <div className="sm:flex sm:items-center sm:gap-[12px]">
                                 <div className="sm:h-[54px] lg:h-[64px] hidden sm:flex min-w-[4px] bg-gradient-to-r from-primary-start to-primary-end rounded-[16px]">
@@ -62,6 +90,50 @@ export default function ServicesSection() {
 
                     </div>
 
+
+
+
+                    {/* // cards  */}
+
+
+                    <div className="mt-[24px] md:mt-[32px] lg:mt-[40px] grid grid-cols-1 md:grid-cols-2 gap-[16px] md:gap-[24px] lg:gap-[32px] ">
+
+                        {
+                            services?.map((service, index) => (
+                                <div key={index + service?.title} className="w-full h-full md:max-w-[554px] max-h-[226px] lg:max-h-[311px] rounded-[32px] p-[24px] lg:p-[32px] bg-background  z-20">
+
+                                    <div className="flex justify-between">
+                                        <div className="w-[54px] lg:w-[80px] h-[54px] lg:h-[80px] rounded-[16px] p-[12px] flex justify-center items-center bg-secondary/10">
+                                            <Image
+                                                src={service?.icon}
+                                                width={100}
+                                                height={100}
+                                                alt="service card icon image"
+                                                className="w-[30px] lg:w-[40px] h-[30px] lg:h-[40px]"
+                                            />
+                                        </div>
+                                        <div className="w-[42px] lg:w-[48px] h-[42px] lg:h-[48px] text-white bg-[linear-gradient(99deg,_#5F90F0_5.67%,_#185AD9_98.08%)] rounded-full p-[12px]">
+                                            <Image
+                                                src={sendArrowIcon}
+                                                width={100}
+                                                height={100}
+                                                alt="service card icon image"
+                                                className="w-[18px] lg:w-[24px] h-[18px] lg:h-[24px]"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <h1 className="mt-[12px] lg:mt-[16px] text-[20px] lg:text-[28px] font-bold leading-[140%] lg:leading-[150%] text-primary">
+                                        {service?.title}
+                                    </h1>
+
+                                    <p className="mt-[4px] line-clamp-3 lg:mt-[8px] text-[16px] leading-[160%] text-body">
+                                        {service?.description}
+                                    </p>
+                                </div>
+                            ))}
+
+                    </div>
 
 
                 </div>
