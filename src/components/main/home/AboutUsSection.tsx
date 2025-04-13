@@ -146,7 +146,6 @@ export default function AboutUsSection() {
                     </div>
                 </div>
 
-
             </div>
         </section>
     )
