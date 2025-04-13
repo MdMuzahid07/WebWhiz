@@ -91,8 +91,6 @@ export default function ServicesSection() {
                     </div>
 
 
-
-
                     {/* // cards  */}
 
 
@@ -100,7 +98,7 @@ export default function ServicesSection() {
 
                         {
                             services?.map((service, index) => (
-                                <div key={index + service?.title} className="w-full h-full md:max-w-[554px] max-h-[226px] lg:max-h-[311px] rounded-[32px] p-[24px] lg:p-[32px] bg-background  z-20">
+                                <div key={index + service?.title} className="border-[1px] border-background hover:border-primary-start w-full h-full md:max-w-[554px] max-h-[226px] lg:max-h-[311px] rounded-[32px] p-[24px] lg:p-[32px] bg-background  z-20">
 
                                     <div className="flex justify-between">
                                         <div className="w-[54px] lg:w-[80px] h-[54px] lg:h-[80px] rounded-[16px] p-[12px] flex justify-center items-center bg-secondary/10">
@@ -112,7 +110,7 @@ export default function ServicesSection() {
                                                 className="w-[30px] lg:w-[40px] h-[30px] lg:h-[40px]"
                                             />
                                         </div>
-                                        <div className="w-[42px] lg:w-[48px] h-[42px] lg:h-[48px] text-white bg-[linear-gradient(99deg,_#5F90F0_5.67%,_#185AD9_98.08%)] rounded-full p-[12px]">
+                                        <button className="w-[42px] cursor-pointer lg:w-[48px] h-[42px] lg:h-[48px] text-white bg-[linear-gradient(99deg,_#5F90F0_5.67%,_#185AD9_98.08%)] rounded-full p-[12px]">
                                             <Image
                                                 src={sendArrowIcon}
                                                 width={100}
@@ -120,14 +118,14 @@ export default function ServicesSection() {
                                                 alt="service card icon image"
                                                 className="w-[18px] lg:w-[24px] h-[18px] lg:h-[24px]"
                                             />
-                                        </div>
+                                        </button>
                                     </div>
 
                                     <h1 className="mt-[12px] lg:mt-[16px] text-[20px] lg:text-[28px] font-bold leading-[140%] lg:leading-[150%] text-primary">
                                         {service?.title}
                                     </h1>
 
-                                    <p className="mt-[4px] line-clamp-3 lg:mt-[8px] text-[16px] leading-[160%] text-body">
+                                    <p className="mt-[4px] line-clamp-3 lg:line-clamp-4 lg:mt-[8px] text-[16px] leading-[160%] text-body">
                                         {service?.description}
                                     </p>
                                 </div>
