@@ -41,13 +41,12 @@ export default function BlogSection() {
 
 
 
-                <div>
-
+                <div className="flex items-end h-[586px]">
 
                     <div>
                         <h1 className="text-caption text-center sm:text-left text-[14px] font-semibold leading-[160%] tracking-[1.68px] uppercase mb-[4px]">Blog</h1>
 
-                        <h1 className="max-w-[327px] w-full md:max-w-[330px] lg:max-w-[516px] text-[24px] lg:text-[40px] font-bold leading-[140%] text-center sm:text-left mb-[8px] sm:mb-[0px]">
+                        <h1 className="max-w-[327px] w-full md:max-w-[330px] lg:max-w-[516px] text-[24px] lg:text-[40px] font-bold leading-[140%] text-center sm:text-left mb-8 sm:mb-[16px]">
                             <span className="mr-2">
                                 Our
                             </span>
@@ -70,9 +69,9 @@ export default function BlogSection() {
                         </h1>
 
 
-                        <div className="w-full sm:max-w-[364px] lg:max-w-[516px] mt-[8px] sm::mt-[16px] ">
+                        <div className="w-full sm:max-w-[364px] lg:max-w-[516px] ">
                             <div className="sm:flex sm:items-center sm:gap-[12px]">
-                                <div className="sm:h-[54px] lg:h-[74px] hidden sm:flex min-w-[4px] bg-gradient-to-r from-primary-start to-primary-end rounded-[16px]">
+                                <div className="sm:h-[54px] lg:h-[76px] hidden sm:flex min-w-[4px] bg-gradient-to-r from-primary-start to-primary-end rounded-[16px]">
                                 </div>
 
                                 <p className="w-full hidden h-[74px] lg:flex text-body text-[16px] font-normal leading-[160%]">
@@ -84,16 +83,46 @@ export default function BlogSection() {
                                 </p>
 
                                 <p className="w-full flex md:hidden  text-center text-body text-[16px] font-normal leading-[160%]">
-                                    The team  consistently delivered outstanding results surpassing our expectations in terms
+                                    The team consistently delivered outstanding results surpassing our expectations in terms
                                 </p>
 
                             </div>
                         </div>
 
+                        {/* slider navigation buttons */}
+                        <div className="flex items-center gap-[12px] mt-[24px] lg:mt-[42px] lg:mb-[62px]">
+                            <button
+                                className="w-[32px] h-[32px] cursor-pointer p-[1px] bg-gradient-to-r from-primary-start to-primary-end rounded-full"
+                                aria-label="Previous slide"
+                            >
+                                <div className="bg-white rounded-full w-full h-full flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+                                        <path d="M6.38 3.95L2.33 8l4.05 4.05" stroke="#185AD9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                        <path d="M13.67 8H2.45" stroke="#185AD9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </div>
+                            </button>
+
+                            <div className="flex items-baseline w-[36px]">
+                                <p className="text-[18.903px] bg-gradient-to-r from-primary-start to-primary-end bg-clip-text text-transparent">
+                                    01
+                                </p>
+                                <p className="text-[11.5px]">/05</p>
+                            </div>
+
+                            <button
+                                className="cursor-pointer w-[32px] h-[32px] flex justify-center items-center bg-gradient-to-r from-primary-start to-primary-end rounded-full"
+                                aria-label="Next slide"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M9.62 3.95337L13.6667 8.00004L9.62 12.0467" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                    <path d="M2.33331 8L13.5533 8" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
+
                 </div>
-
-
 
 
             </div>
