@@ -8,8 +8,7 @@ export default function BlogSection() {
 
 
                 <div className="h-[586px] flex items-end relative">
-
-                    <figure className="w-[369px] h-[510px] absolute left-[92.5px]  bottom-[76px] z-10">
+                    <figure className="w-full sm:w-[247px] lg:w-[369px] sm:h-[348px] lg:h-[510px] absolute sm:left-[46.5px] lg:left-[92.5px]  bottom-[76px] z-10">
                         <Image
                             src="/images/home/blog-section/tab-in-hand.png"
                             width={369}
@@ -36,7 +35,7 @@ export default function BlogSection() {
 
                     </figure>
 
-                    <div className="w-[554px] h-[450px] rounded-[16px] bg-[#EDEEFB] relative z-0"></div>
+                    <div className="w-full sm:w-[340px] lg:w-[554px] sm:h-[287px] lg:h-[450px] rounded-[16px] bg-[#EDEEFB] relative z-0"></div>
                 </div>
 
 
@@ -90,7 +89,7 @@ export default function BlogSection() {
                         </div>
 
                         {/* slider navigation buttons */}
-                        <div className="flex items-center gap-[12px] mt-[24px] lg:mt-[42px] lg:mb-[62px]">
+                        <div className="flex items-center gap-[12px] mt-[24px] lg:mt-[42px] sm:mb-[84px] lg:mb-[62px]">
                             <button
                                 className="w-[32px] h-[32px] cursor-pointer p-[1px] bg-gradient-to-r from-primary-start to-primary-end rounded-full"
                                 aria-label="Previous slide"
