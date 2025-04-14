@@ -4,7 +4,7 @@ export default function ContactUs() {
     return (
         <section className="max-w-[1440px] mx-auto bg-background py-[42px] lg:pb-[76px]">
             <div className="pl-[24px] pr-[24px] sm:pl-[32px] sm:pr-[32px] lg:pl-[150px] lg:pr-[0px]">
-                <div className="flex gap-[16px] sm:gap-[24px] lg:gap-[80px]">
+                <div className="flex flex-col-reverse sm:flex-row gap-[16px] sm:gap-[24px] lg:gap-[80px]">
                     <div className="w-full lg:max-w-[456px] mt-[25px]">
                         <h1 className="mb-[8px] lg:mb-[12px]  text-[24px] sm:text-[28px] lg:text-[40px] font-bold leading-[140%] ">
                             Contact Us
@@ -47,15 +47,15 @@ export default function ContactUs() {
 
                     </div>
 
-                    <div className="w-full lg:max-w-[756px]  mt-[39px]">
+                    <div className="w-full lg:max-w-[756px]  mt-[39px] mb-[124px] sm:mb-[0px]">
                         <div className="relative flex justify-end">
 
 
-                            <div className="relative">
+                            <div className="relative w-full sm:w-fit">
 
                                 <div className="w-[55px] lg:w-[117px] h-[55px] lg:h-[117px] rounded-[8px] bg-[rgba(24,90,217,0.10)] absolute z-0 top-0 left-0 sm:-ml-[15px] lg:-ml-[40px] sm:-mt-[24px] lg:-mt-[40px]"></div>
 
-                                <figure className="w-[327px] xl:w-[590px] h-[263px] xl:h-[475px] rounded-l-[16px] overflow-hidden relative">
+                                <figure className="w-full sm:w-[327px] xl:w-[590px] sm:h-[263px] xl:h-[475px] rounded-l-[16px] overflow-hidden relative">
 
                                     <Image
                                         src="/images/home/contact-us-section/customer-support-image.png"
