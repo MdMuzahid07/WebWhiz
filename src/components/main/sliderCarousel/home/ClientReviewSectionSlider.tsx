@@ -296,7 +296,7 @@ export default function ClientReviewSectionSlider() {
                                 width={216}
                                 height={212}
                                 alt="client review slide image"
-                                className="w-full h-full rounded-[8px] xl:rounded-[16px]"
+                                className="w-full h-full rounded-[8px] object-cover object-center xl:rounded-[16px]"
                             />
                         </figure>
 
@@ -306,7 +306,7 @@ export default function ClientReviewSectionSlider() {
                                 width={216}
                                 height={212}
                                 alt="client review slide image"
-                                className="w-full h-full rounded-[8px] xl:rounded-[16px]"
+                                className="w-full h-full rounded-[8px] object-cover object-center xl:rounded-[16px]"
                             />
                         </figure>
 
@@ -316,7 +316,7 @@ export default function ClientReviewSectionSlider() {
                                 width={206}
                                 height={401}
                                 alt="client review main image"
-                                className="w-full h-full rounded-[8px] xl:rounded-[16px]"
+                                className="w-full h-full rounded-[8px] object-cover object-center xl:rounded-[16px]"
                             />
                         </figure>
                     </div>

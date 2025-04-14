@@ -8,6 +8,7 @@
   --caption: #fba017;
   --color-primary-start: #5f90f0;
   --color-primary-end: #185ad9;
+  --footer-bg: #0e1025;
   --font-manrope: "Manrope", sans-serif;
 }
 
@@ -20,5 +21,6 @@
   --color-primary-end: var(--color-primary-end);
   --color-body: var(--paragraph);
   --color-caption: var(--caption);
+  --color-footer-bg: var(--footer-bg);
   --font-manrope: var(--font-manrope);
 }
