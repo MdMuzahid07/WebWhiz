@@ -9,7 +9,7 @@ export default function BlogSection() {
 
                 <div className="h-[586px] flex items-end relative">
 
-                    <figure className="w-[369px] h-[510px] absolute left-[93px]  bottom-[32px] z-10">
+                    <figure className="w-[369px] h-[510px] absolute left-[92.5px]  bottom-[72px] z-10">
                         <Image
                             src="/images/home/blog-section/tab-in-hand.png"
                             width={369}
@@ -17,6 +17,23 @@ export default function BlogSection() {
                             alt="tab in hand image"
                             className="w-full h-full rounded-[6.606px] lg:rounded-[12px]"
                         />
+
+                        {/* // slider indicator  */}
+                        <div className="flex justify-center items-center gap-[8px] mt-[40px]">
+                            <div
+                                className={`w-[50px] h-[4px] rounded-[3px] bg-gradient-to-r from-primary-start to-primary-end`}
+                            />
+                            <div
+                                className={`w-[50px] h-[4px] rounded-[3px] bg-[linear-gradient(99deg,rgba(95,144,240,0.10)_5.67%,rgba(24,90,217,0.10)_98.08%)]
+                               `}
+                            />
+
+                            <div
+                                className={`w-[50px] h-[4px] rounded-[3px]  bg-[linear-gradient(99deg,rgba(95,144,240,0.10)_5.67%,rgba(24,90,217,0.10)_98.08%)]
+                                }`}
+                            />
+                        </div>
+
                     </figure>
 
                     <div className="w-[554px] h-[450px] rounded-[16px] bg-[#EDEEFB] relative z-0"></div>
