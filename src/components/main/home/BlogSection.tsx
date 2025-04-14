@@ -4,11 +4,11 @@ import React from "react";
 export default function BlogSection() {
     return (
         <section className="max-w-[1440px] mx-auto bg-background px-[24px] sm:px-[32px] lg:px-[150px]  pb-[42px] lg:pb-[76px]">
-            <div className="flex flex-col md:flex-row gap-[24px] lg:gap-[70px]">
+            <div className="flex flex-col-reverse sm:flex-row gap-[24px] lg:gap-[70px]">
 
 
-                <div className=" sm:h-[400px] xl:h-[586px] flex items-end relative">
-                    <figure className="w-full sm:w-[247px] xl:w-[369px] sm:h-[348px] xl:h-[510px] absolute sm:left-[46.5px] xl:left-[92.5px] bottom-[52px]  xl:bottom-[76px] z-10">
+                <div className="min-h-[400px] sm:h-[400px] xl:h-[586px] flex items-end relative mb-[42px] sm:mb-[0px]">
+                    <figure className="w-[247px] sm:w-[247px] xl:w-[369px] h-[348px] xl:h-[510px] absolute left-[40px] sm:left-[46.5px] xl:left-[92.5px] bottom-[36px] sm:bottom-[52px]  xl:bottom-[76px] z-10">
                         <Image
                             src="/images/home/blog-section/tab-in-hand.png"
                             width={369}
@@ -35,12 +35,46 @@ export default function BlogSection() {
 
                     </figure>
 
-                    <div className="w-full sm:w-[340px] xl:w-[554px] sm:h-[287px] xl:h-[450px] rounded-[16px] bg-[#EDEEFB] relative z-0"></div>
+                    <div className="w-[327px] h-[287px] sm:w-[340px] xl:w-[554px] sm:h-[287px] xl:h-[450px] rounded-[16px] bg-[#EDEEFB] relative z-0"></div>
+
+                    <div className="absolute bottom-0 -mb-[63px] flex justify-center w-full">
+                        {/* slider navigation buttons */}
+                        <div className="flex sm:hidden items-center gap-[12px] mt-[24px] lg:mt-[42px] sm:mb-[84px] lg:mb-[62px]">
+                            <button
+                                className="w-[32px] h-[32px] cursor-pointer p-[1px] bg-gradient-to-r from-primary-start to-primary-end rounded-full"
+                                aria-label="Previous slide"
+                            >
+                                <div className="bg-white rounded-full w-full h-full flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+                                        <path d="M6.38 3.95L2.33 8l4.05 4.05" stroke="#185AD9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                        <path d="M13.67 8H2.45" stroke="#185AD9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </div>
+                            </button>
+
+                            <div className="flex items-baseline w-[36px]">
+                                <p className="text-[18.903px] bg-gradient-to-r from-primary-start to-primary-end bg-clip-text text-transparent">
+                                    01
+                                </p>
+                                <p className="text-[11.5px]">/05</p>
+                            </div>
+
+                            <button
+                                className="cursor-pointer w-[32px] h-[32px] flex justify-center items-center bg-gradient-to-r from-primary-start to-primary-end rounded-full"
+                                aria-label="Next slide"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M9.62 3.95337L13.6667 8.00004L9.62 12.0467" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                    <path d="M2.33331 8L13.5533 8" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
 
 
-                <div className="flex items-end  sm:h-[400px] xl:h-[586px] w-full">
+                <div className=" flex items-end  sm:h-[400px] xl:h-[586px] w-full">
 
                     <div>
                         <h1 className="text-caption text-center sm:text-left text-[14px] font-semibold leading-[160%] tracking-[1.68px] uppercase mb-[4px]">Blog</h1>
@@ -89,7 +123,7 @@ export default function BlogSection() {
                         </div>
 
                         {/* slider navigation buttons */}
-                        <div className="flex items-center gap-[12px] mt-[24px] lg:mt-[42px] sm:mb-[84px] lg:mb-[62px]">
+                        <div className="hidden sm:flex items-center gap-[12px] mt-[24px] lg:mt-[42px] sm:mb-[84px] lg:mb-[62px]">
                             <button
                                 className="w-[32px] h-[32px] cursor-pointer p-[1px] bg-gradient-to-r from-primary-start to-primary-end rounded-full"
                                 aria-label="Previous slide"
