@@ -1,4 +1,5 @@
 import AboutUsSection from "@/components/main/home/AboutUsSection";
+import BlogSection from "@/components/main/home/BlogSection";
 import ClientReviews from "@/components/main/home/ClientReviews";
 import ContactUs from "@/components/main/home/ContactUs";
 import HeroAreaSection from "@/components/main/home/HeroAreaSection";
@@ -14,6 +15,7 @@ export default function page() {
       <ServicesSection />
       <ClientReviews />
       <ContactUs />
+      <BlogSection />
     </>
   )
 };
