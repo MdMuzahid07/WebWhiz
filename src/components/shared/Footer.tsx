@@ -31,7 +31,7 @@ export default function Footer() {
 
 
                 <div className="flex gap-[32px] lg:gap-[133px] lg:mt-[62px]">
-                    <div className="lg:w-[339px] flex flex-col gap-[16px]">
+                    <div className="w-full max-w-[339px] flex flex-col gap-[16px]">
                         <div>
                             <div className="flex items-center gap-[8px]">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
@@ -92,8 +92,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <ul className="flex justify-between w-full">
-
+                    <ul className="flex justify-between max-w-[969px] w-full">
                         <li className="w-[104px]">
                             <ul className="w-full">
                                 <li className="mb-[16px]">
