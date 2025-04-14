@@ -33,8 +33,8 @@ const sendArrowIcon = "/images/home/services-section/send.svg";
 
 export default function ServicesSection() {
     return (
-        <section className="max-w-[1440px] mx-auto  lg:pt-[29px] h-full sm:mt-[0px]">
-            <div className="relative w-full h-full  bg-secondary/4 pb-[24px] md:pb-[32px] lg:pb-[80px]">
+        <section className="max-w-[1440px] mx-auto  lg:pt-[36px] h-full sm:mt-[0px]">
+            <div className="relative w-full h-full  bg-secondary/4 pb-[24px] md:pb-[32px] lg:pb-[81px]">
 
 
                 {/* // main container */}
@@ -94,7 +94,7 @@ export default function ServicesSection() {
                     {/* // cards  */}
 
 
-                    <div className="mt-[24px] md:mt-[32px] lg:mt-[40px] grid grid-cols-1 md:grid-cols-2 gap-[16px] md:gap-[24px] lg:gap-[32px] ">
+                    <div className="mt-[24px] md:mt-[32px] lg:mt-[37px] grid grid-cols-1 md:grid-cols-2 gap-[16px] md:gap-[24px] lg:gap-[32px] ">
 
                         {
                             services?.map((service, index) => (

@@ -125,7 +125,7 @@ export default function AboutUsSection() {
 
 
                             {/* // desktop view  */}
-                            <div className="absolute hidden xl:flex bottom-[39px] right-0 lg:-right-[51px] lg:-bottom-[54px] w-[349px] lg:w-[531px] h-[81px] lg:h-[124px] p-[16px] lg:p-[32px]justify-between bg-[linear-gradient(99deg,#5F90F0_5.67%,#185AD9_98.08%)] rounded-[12px] items-center">
+                            <div className="absolute hidden xl:flex bottom-[39px] right-0 lg:-right-[51px] lg:-bottom-[69px] w-[349px] lg:w-[531px] h-[81px] lg:h-[124px] p-[16px] lg:p-[32px]justify-between bg-[linear-gradient(99deg,#5F90F0_5.67%,#185AD9_98.08%)] rounded-[12px] items-center">
                                 <div className="text-center w-full text-white">
                                     <h1 className="text-[16px] lg:text-[24px] font-bold leading-[150%] lg:leading-[140%] ">58+</h1>
                                     <p className="text-[12px] lg:text-[16px] leading-[160%]">Project Delivery</p>

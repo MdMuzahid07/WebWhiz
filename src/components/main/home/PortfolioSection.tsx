@@ -5,11 +5,11 @@ export default function PortfolioSection() {
     return (
         <section className="max-w-[1440px] mx-auto lg:pt-[29px] mt-[388px] sm:mt-[0px]">
             <div className="relative w-full h-full  lg:min-h-[740px] bg-secondary/4">
-                <div className="px-[24px] sm:px-[32px] xl:px-[140px]">
+                <div className="px-[24px] sm:px-[32px] xl:px-[150px]">
 
                     <h1 className="text-caption text-center sm:text-left text-[14px] pt-[32px] lg:pt-[80px] font-semibold leading-[160%] tracking-[1.68px] uppercase mb-[4px]">portfolio</h1>
 
-                    <div className="flex justify-center md:justify-start flex-col md:flex-row md:items-center lg:items-start xl:gap-[81px]">
+                    <div className="flex justify-center md:justify-start lg:justify-between flex-col md:flex-row md:items-center lg:items-start ">
 
                         {/* // for desktop  */}
                         <div className="flex md:hidden lg:flex">

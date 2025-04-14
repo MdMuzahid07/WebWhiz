@@ -47,10 +47,10 @@ export default function PortfolioSectionSlider() {
 
 
                             {
-                                slide?.image === "/images/home/portfolio-section/slider-images/slide-img-3.png" && <div className="absolute left-[25px] bottom-[25px] right-[25px] z-50 bg-white rounded-[16px] p-[16px] flex justify-between">
+                                slide?.image === "/images/home/portfolio-section/slider-images/slide-img-3.png" && <div className="absolute left-[24px] bottom-[24px] right-[24px] z-50 bg-white rounded-[16px] p-[16px] flex justify-between">
                                     <div>
-                                        <h1 className="text-[20px] font-bold leading-[150%]">Finance Banking Landing page</h1>
-                                        <p className="max-w-[331px] text-[14px] leading-[160%]  overflow-hidden line-clamp-1 text-body">In our portfolio section, you&apos;ll embark on a visual journey through a meticulously curated gallery that represents.</p>
+                                        <h1 className="text-[20px] pt-[2px] h-[30px] font-bold leading-[150%]">Finance Banking Landing page</h1>
+                                        <p className="w-full max-w-[331px] h-[22px] text-[14px] leading-[160%] overflow-hidden line-clamp-1 text-body pt-[3px]">In our portfolio section, you&apos;ll embark on a visual journey through a meticulously curated gallery that represents.</p>
                                     </div>
                                     <div className="size-[56px] p-[16px] rounded-[12px] bg-gradient-to-r from-primary-start to-primary-end">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
