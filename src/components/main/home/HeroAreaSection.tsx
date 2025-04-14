@@ -6,7 +6,7 @@ export default function HeroAreaSection() {
             <div className="flex justify-center md:justify-between flex-col md:flex-row gap-[20px] w-full h-full lg:h-[526px]">
 
 
-                <div className="px-[24px] sm:px-[32px] xl:px-[140px] mb-[52px] sm:mb-[76px] mt-[10px]">
+                <div className="px-[24px] sm:px-[32px] xl:px-[150px] mb-[52px] sm:mb-[76px] mt-[10px]">
                     <h1 className="max-w-[520px] text-[32px] font-bold leading-[140%] sm:text-[40px] lg:text-[64px] md:leading-[120%] text-center sm:text-start">
                         <span>
                             Turning
@@ -174,7 +174,7 @@ export default function HeroAreaSection() {
 
 
                 {/* // ======= for desktop view ============> */}
-                <div className="hidden lg:flex justify-center pl-3 relative px-[24px] sm:px-[32px] xl:px-[140px] mb-[76px]">
+                <div className="hidden lg:flex justify-center pl-3 relative px-[24px] sm:px-[32px] xl:px-[150px] mb-[76px]">
                     <div className="relative w-full h-full">
                         <div className="relative">
                             <div className="absolute right-[115px] -top-[24px]">

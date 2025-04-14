@@ -3,7 +3,7 @@ export default function ContactUs() {
     return (
         <section className="max-w-[1440px] mx-auto bg-background">
             <div className="pl-[24px] pr-[24px] sm:pl-[32px] sm:pr-[32px] lg:pl-[150px] lg:pr-[0px]">
-                <div className="flex gap-[16px] sm:gap-[24px] gap-[80px]">
+                <div className="flex gap-[16px] sm:gap-[24px] lg:gap-[80px]">
                     <div className="w-full lg:max-w-[456px]">
                         <h1 className="mb-[8px] lg:mb-[16px]  text-[24px] sm:text-[28px] lg:text-[40px] font-bold leading-[140%] ">
                             Contact Us
@@ -34,7 +34,6 @@ export default function ContactUs() {
 
                     </div>
                 </div>
-
 
 
             </div>
