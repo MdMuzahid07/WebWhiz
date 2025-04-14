@@ -4,11 +4,11 @@ import React from "react";
 export default function BlogSection() {
     return (
         <section className="max-w-[1440px] mx-auto bg-background px-[24px] sm:px-[32px] lg:px-[150px]  pb-[42px] lg:pb-[76px]">
-            <div className="flex flex-col sm:flex-row gap-[24px] lg:gap-[70px]">
+            <div className="flex flex-col md:flex-row gap-[24px] lg:gap-[70px]">
 
 
-                <div className="h-[586px] flex items-end relative">
-                    <figure className="w-full sm:w-[247px] lg:w-[369px] sm:h-[348px] lg:h-[510px] absolute sm:left-[46.5px] lg:left-[92.5px]  bottom-[76px] z-10">
+                <div className=" sm:h-[400px] xl:h-[586px] flex items-end relative">
+                    <figure className="w-full sm:w-[247px] xl:w-[369px] sm:h-[348px] xl:h-[510px] absolute sm:left-[46.5px] xl:left-[92.5px] bottom-[52px]  xl:bottom-[76px] z-10">
                         <Image
                             src="/images/home/blog-section/tab-in-hand.png"
                             width={369}
@@ -18,7 +18,7 @@ export default function BlogSection() {
                         />
 
                         {/* // slider indicator  */}
-                        <div className="flex justify-center items-center gap-[8px] mt-[32px]">
+                        <div className="flex justify-center items-center gap-[8px] mt-[16px] xl:mt-[32px]">
                             <div
                                 className={`w-[50px] h-[4px] rounded-[3px] bg-gradient-to-r from-primary-start to-primary-end`}
                             />
@@ -35,17 +35,17 @@ export default function BlogSection() {
 
                     </figure>
 
-                    <div className="w-full sm:w-[340px] lg:w-[554px] sm:h-[287px] lg:h-[450px] rounded-[16px] bg-[#EDEEFB] relative z-0"></div>
+                    <div className="w-full sm:w-[340px] xl:w-[554px] sm:h-[287px] xl:h-[450px] rounded-[16px] bg-[#EDEEFB] relative z-0"></div>
                 </div>
 
 
 
-                <div className="flex items-end h-[586px]">
+                <div className="flex items-end  sm:h-[400px] xl:h-[586px] w-full">
 
                     <div>
                         <h1 className="text-caption text-center sm:text-left text-[14px] font-semibold leading-[160%] tracking-[1.68px] uppercase mb-[4px]">Blog</h1>
 
-                        <h1 className="max-w-[327px] w-full md:max-w-[330px] lg:max-w-[516px] text-[24px] lg:text-[40px] font-bold leading-[140%] text-center sm:text-left mb-8 sm:mb-[16px]">
+                        <h1 className="max-w-[327px] w-full md:max-w-[330px] lg:max-w-[516px] text-[24px] xl:text-[40px] font-bold leading-[140%] text-center sm:text-left mb-8 sm:mb-[16px]">
                             <span className="mr-2">
                                 Our
                             </span>
@@ -73,11 +73,11 @@ export default function BlogSection() {
                                 <div className="sm:h-[54px] lg:h-[76px] hidden sm:flex min-w-[4px] bg-gradient-to-r from-primary-start to-primary-end rounded-[16px]">
                                 </div>
 
-                                <p className="w-full hidden h-[74px] lg:flex text-body text-[16px] font-normal leading-[160%]">
+                                <p className="w-full hidden h-[74px] xl:flex text-body text-[16px] font-normal leading-[160%]">
                                     The team consistently delivered outstanding results surpassing our expectations in terms of creativity strategy Graphic design is a dynamic and creative field that blends artistry with technology
                                 </p>
 
-                                <p className="w-full hidden md:flex lg:hidden text-body text-[16px] font-normal leading-[160%] line-clamp-2 overflow-hidden max-h-[54px]">
+                                <p className="w-full hidden md:flex xl:hidden text-body text-[16px] font-normal leading-[160%] line-clamp-2 overflow-hidden max-h-[54px]">
                                     The team outstanding results surpassing our expectations in terms of creativity strategy Graphic design is a dynamic and creative field that blends artistry with technology
                                 </p>
 
