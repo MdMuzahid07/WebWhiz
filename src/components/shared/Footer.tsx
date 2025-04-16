@@ -100,9 +100,9 @@ export default function Footer() {
                                     </div>
                                 </li>
                                 <li className="mb-[12px] sm:mb-[8px] lg:mb-[12px]">
-                                    <p className="text-body text-[16px] sm:text-[14px] lg:text-[16px] leading-[160%]">
+                                    <a href="" className="text-body text-[16px] sm:text-[14px] lg:text-[16px] leading-[160%]">
                                         Home
-                                    </p>
+                                    </a>
                                 </li>
                                 <li className="mb-[12px] sm:mb-[8px] lg:mb-[12px]">
                                     <p className="text-body text-[16px] sm:text-[14px] lg:text-[16px] leading-[160%]">
